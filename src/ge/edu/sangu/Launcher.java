@@ -27,6 +27,7 @@ public class Launcher {
             case "mk" -> new MakeAction();
             case "dir" -> new ListAction();
             case "rm" -> new RemoveAction();
+            default -> null;
         };
     }
 }
